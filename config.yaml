@@ -1,0 +1,25 @@
+organization: cncf-tags
+repositories:
+  - name: green-reviews-tooling
+    external_collaborators:
+      nikimanoledaki: maintain
+      guidemetothemoon: maintain
+    teams:
+      tag-env-leads: admin
+      cncf-projects: admin
+teams:
+  - name: tag-env-leads
+    members:
+      - caradelia
+      - catblade
+      - leonardpahlke
+      - mkorbi
+    maintainers:
+      - amye
+    displayName: CNCF TAG Environmental Sustainability Chairs and Tech Leads
+  - name: cncf-projects
+    members:
+      - amye
+    maintainers:
+      - jeefy
+    displayName: CNCF Projects Team
