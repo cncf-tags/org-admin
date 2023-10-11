@@ -4,7 +4,7 @@ repositories:
     external_collaborators:
     teams:
       cod-resource-management: admin
-  - name: wg-artefacts
+  - name: wg-artifacts
     external_collaborators:
     teams:
   - name: green-reviews-tooling
