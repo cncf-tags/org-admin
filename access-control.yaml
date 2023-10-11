@@ -50,7 +50,7 @@ teams:
       - marquiz
       - zvonkok
       - krook
-  - name: wg-artefacts
+  - name: wg-artifacts-leads
     displayName: Working Group Artifacts
     members:
       - leonardpahlke
