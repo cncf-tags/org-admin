@@ -53,5 +53,5 @@ teams:
   - name: wg-artifacts-leads
     displayName: Working Group Artifacts
     members:
-      - leonardpahlke
-      - krook
+      - afflom
+      - rchincha
