@@ -1,25 +1,57 @@
 organization: cncf-tags
 repositories:
+  - name: container-device-interface
+    external_collaborators:
+    teams:
+      cod-resource-management: admin
+  - name: wg-artefacts
+    external_collaborators:
+    teams:
   - name: green-reviews-tooling
+    displayName: WG Green Reviews
     external_collaborators:
       nikimanoledaki: maintain
       guidemetothemoon: maintain
     teams:
       tag-env-leads: admin
       cncf-projects: admin
+  - name: .github
+    settings:
+      has_wiki: true
+    teams:
+      cncf-projects: admin
+  - name: org-admin
+    teams:
+      cncf-projects: admin
+
 teams:
   - name: tag-env-leads
+    displayName: CNCF TAG Environmental Sustainability Chairs and Tech Leads
     members:
       - caradelia
       - catblade
       - leonardpahlke
       - mkorbi
-    maintainers:
-      - amye
-    displayName: CNCF TAG Environmental Sustainability Chairs and Tech Leads
-  - name: cncf-projects
+  - name: cncf-project-ops
+    displayName: CNCF Projects Operatoins Team
     members:
       - amye
-    maintainers:
+      - cmierly
       - jeefy
-    displayName: CNCF Projects Team
+      - RobertKielty
+      - krook
+  - name: cod-resource-management
+    displayName: COD Resource Management
+    members:
+      - crosbymichael
+      - elezar
+      - kad
+      - klihub
+      - marquiz
+      - zvonkok
+      - krook
+  - name: wg-artefacts
+    displayName: Working Group Artifacts
+    members:
+      - leonardpahlke
+      - krook
