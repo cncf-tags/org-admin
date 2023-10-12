@@ -7,6 +7,8 @@ repositories:
   - name: wg-artifacts
     external_collaborators:
     teams:
+      wg-artifacts-leads: admin
+      cncf-projects: admin
   - name: green-reviews-tooling
     displayName: WG Green Reviews
     external_collaborators:
