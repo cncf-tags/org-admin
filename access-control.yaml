@@ -7,12 +7,12 @@ repositories:
   - name: wg-artifacts
     teams:
       wg-artifacts-leads: admin
-      cncf-projects: admin
+      cncf-project-ops: admin
   - name: green-reviews-tooling
     displayName: WG Green Reviews
     teams:
       tag-env-leads: admin
-      cncf-projects: admin
+      cncf-project-ops: admin
     external_collaborators:
       nikimanoledaki: maintain
       guidemetothemoon: maintain
@@ -20,10 +20,10 @@ repositories:
     settings:
       has_wiki: true
     teams:
-      cncf-projects: admin
+      cncf-project-ops: admin
   - name: org-admin
     teams:
-      cncf-projects: admin
+      cncf-project-ops: admin
 # For now, CLOWarden requires a team has at least one GitHub team maintainer
 teams:
   - name: tag-env-leads
