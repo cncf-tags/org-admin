@@ -16,6 +16,13 @@ repositories:
     external_collaborators:
       nikimanoledaki: maintain
       guidemetothemoon: maintain
+  - name: wg-higher-ed
+    displayName: WG Higher Education
+    teams:
+      tag-env-leads: admin
+      cncf-project-ops: admin
+    external_collaborators:
+      CathPag: maintain
   - name: tag-env-tooling
     teams:
       tag-env-leads: admin
