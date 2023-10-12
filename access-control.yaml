@@ -1,22 +1,21 @@
+# CLOWarden configuration controls what teams and profiles have access to repos in cncf-tags
 organization: cncf-tags
 repositories:
   - name: container-device-interface
-    external_collaborators:
     teams:
       cod-resource-management: admin
   - name: wg-artifacts
-    external_collaborators:
     teams:
       wg-artifacts-leads: admin
       cncf-projects: admin
   - name: green-reviews-tooling
     displayName: WG Green Reviews
-    external_collaborators:
-      nikimanoledaki: maintain
-      guidemetothemoon: maintain
     teams:
       tag-env-leads: admin
       cncf-projects: admin
+    external_collaborators:
+      nikimanoledaki: maintain
+      guidemetothemoon: maintain
   - name: .github
     settings:
       has_wiki: true
@@ -25,35 +24,38 @@ repositories:
   - name: org-admin
     teams:
       cncf-projects: admin
-
+# For now, CLOWarden requires a team has at least one GitHub team maintainer
 teams:
   - name: tag-env-leads
     displayName: CNCF TAG Environmental Sustainability Chairs and Tech Leads
+    maintainers:
+      - leonardpahlke
     members:
       - caradelia
       - catblade
-      - leonardpahlke
       - mkorbi
   - name: cncf-project-ops
-    displayName: CNCF Projects Operatoins Team
+    displayName: CNCF Projects Operations Team
+    maintainers:
+      - jeefy
     members:
       - amye
       - cmierly
-      - jeefy
       - RobertKielty
       - krook
   - name: cod-resource-management
     displayName: COD Resource Management
-    members:
+    maintainers:
       - crosbymichael
+    members:
       - elezar
       - kad
       - klihub
       - marquiz
       - zvonkok
-      - krook
   - name: wg-artifacts-leads
     displayName: Working Group Artifacts
-    members:
+    maintainers:
       - afflom
+    members:
       - rchincha
