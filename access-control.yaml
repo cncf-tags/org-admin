@@ -16,6 +16,9 @@ repositories:
     external_collaborators:
       nikimanoledaki: maintain
       guidemetothemoon: maintain
+  - name: tag-env-tooling
+    teams:
+      tag-env-leads: admin
   - name: .github
     settings:
       has_wiki: true
