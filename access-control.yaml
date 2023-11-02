@@ -23,6 +23,7 @@ repositories:
       cncf-project-ops: admin
     external_collaborators:
       CathPag: maintain
+      langdon: maintain
   - name: tag-env-tooling
     teams:
       tag-env-leads: admin
