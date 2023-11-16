@@ -14,8 +14,8 @@ repositories:
       tag-env-leads: admin
       cncf-project-ops: admin
     external_collaborators:
-      nikimanoledaki: maintain
-      guidemetothemoon: maintain
+      nikimanoledaki: admin
+      guidemetothemoon: admin
   - name: wg-higher-ed
     displayName: WG Higher Education
     teams:
