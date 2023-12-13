@@ -12,10 +12,8 @@ repositories:
     displayName: WG Green Reviews
     teams:
       tag-env-leads: admin
+      tag-env-wg-green-reviews-leads: maintain
       cncf-project-ops: admin
-    external_collaborators:
-      nikimanoledaki: admin
-      guidemetothemoon: admin
   - name: wg-higher-ed
     displayName: WG Higher Education
     teams:
@@ -44,7 +42,15 @@ teams:
     members:
       - caradelia
       - catblade
+      - guidemetothemoon
       - mkorbi
+  - name: tag-env-wg-green-reviews-leads
+    displayName: CNCF TAG Environmental Sustainability Working Group Green Reviews Chairs and Tech Leads
+    maintainers:
+      - nikimanoledaki
+    members:
+      - AntonioDiTuri
+      - rossf7
   - name: cncf-project-ops
     displayName: CNCF Projects Operations Team
     maintainers:
