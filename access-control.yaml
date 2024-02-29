@@ -1,6 +1,10 @@
 # CLOWarden configuration controls what teams and profiles have access to repos in cncf-tags
 organization: cncf-tags
 repositories:
+  - name: cloud-native-ai
+    teams:
+      cloud-native-ai-wg: admin
+      cncf-project-ops: admin
   - name: container-device-interface
     teams:
       cod-resource-management: admin
@@ -35,6 +39,12 @@ repositories:
       cncf-project-ops: admin
 # For now, CLOWarden requires a team has at least one GitHub team maintainer
 teams:
+  - name: cloud-native-ai-wg
+    displayName: Cloud Native AI Working Group
+    maintainers:
+      - rootfs
+    members:
+      - raravena80
   - name: tag-env-leads
     displayName: CNCF TAG Environmental Sustainability Chairs and Tech Leads
     maintainers:
