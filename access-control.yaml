@@ -37,6 +37,9 @@ repositories:
   - name: org-admin
     teams:
       cncf-project-ops: admin
+  - name: dtr-automation-poc
+    teams:
+      dtr-automation-poc-admins: admin
 # For now, CLOWarden requires a team has at least one GitHub team maintainer
 teams:
   - name: cloud-native-ai-wg
@@ -84,3 +87,9 @@ teams:
       - afflom
     members:
       - rchincha
+  - name: dtr-automation-poc-admins
+    displayName: DTR project board automation poc
+    maintainers:
+      - mrbobbytables
+    members:
+      - angellk
