@@ -77,9 +77,11 @@ teams:
     maintainers:
       - crosbymichael
     members:
+      - bart0sh
       - elezar
       - kad
       - klihub
+      - klueska
       - marquiz
       - zvonkok
   - name: wg-artifacts-leads
