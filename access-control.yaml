@@ -72,6 +72,11 @@ teams:
       - Cmierly
       - RobertKielty
       - krook
+  - name: cod-resource-management-rs
+    displayName: COD Resource Management Rust
+    maintainers:
+      - zvonkok
+      - Apokleos
   - name: cod-resource-management
     displayName: COD Resource Management
     maintainers:
