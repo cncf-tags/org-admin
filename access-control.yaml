@@ -63,6 +63,7 @@ teams:
       - nikimanoledaki
     members:
       - AntonioDiTuri
+      - locomundo
       - rossf7
   - name: cncf-project-ops
     displayName: CNCF Projects Operations Team
