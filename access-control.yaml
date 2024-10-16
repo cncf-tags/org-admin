@@ -8,6 +8,9 @@ repositories:
   - name: container-device-interface
     teams:
       cod-resource-management: admin
+  - name: container-device-interface-rs
+    teams:
+      cod-resource-management-rs: admin
   - name: wg-artifacts
     teams:
       wg-artifacts-leads: admin
@@ -73,6 +76,12 @@ teams:
       - Cmierly
       - RobertKielty
       - krook
+  - name: cod-resource-management-rs
+    displayName: COD Resource Management Rust
+    maintainers:
+      - zvonkok
+    members:
+      - Apokleos
   - name: cod-resource-management
     displayName: COD Resource Management
     maintainers:
