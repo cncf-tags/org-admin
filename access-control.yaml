@@ -73,7 +73,6 @@ teams:
     maintainers:
       - jeefy
     members:
-      - Cmierly
       - RobertKielty
       - krook
   - name: cod-resource-management-rs
